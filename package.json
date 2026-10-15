@@ -1,0 +1,25 @@
+{
+  "name": "napertskala-browser-tests",
+  "version": "1.0.0",
+  "description": "Runnable Selenium Chrome tests using Page Object Model for Napertskala",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node app.js --visible",
+    "test": "node app.js",
+    "test:visible": "node app.js --visible",
+    "test:smoke": "node app.js --smoke",
+    "test:smoke:visible": "node app.js --smoke --visible",
+    "test:home": "node --test tests/home.test.js",
+    "test:login": "node --test tests/login.test.js",
+    "test:privacy": "node --test tests/privacy.test.js",
+    "test:welding": "node --test tests/welding.test.js",
+    "test:electrical": "node --test tests/electrical.test.js",
+    "test:laser": "node --test tests/laser-cutting.test.js",
+    "test:excavator": "node --test tests/excavator.test.js",
+    "test:towing": "node --test tests/towing.test.js",
+    "test:diagnostics": "node --test tests/diagnostics.test.js"
+  },
+  "dependencies": { "selenium-webdriver": "4.36.0" },
+  "engines": { "node": ">=20" }
+}

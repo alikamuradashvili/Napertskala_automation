@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Test - electrical" type="NodeJSConfigurationType" path-to-js-file="$PROJECT_DIR$/tests/electrical.test.js" working-dir="$PROJECT_DIR$" node-parameters="--test --test-concurrency=1 --test-isolation=none">
+    <node-interpreter value="$USER_HOME$/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe" />
+    <envs>
+      <env name="HEADLESS" value="0" />
+    </envs>
+    <method v="2" />
+  </configuration>
+</component>
